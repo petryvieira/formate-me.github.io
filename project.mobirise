@@ -1,0 +1,580 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "formate.me",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 10,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/icon-formate-me-128x128-1.png",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "formate.me | Revisão e Formatação para Dissertações e Teses",
+        "meta_descr": "Revisão e formatação para Dissertações e Teses acadêmicas, de Pós-Graduação, MBA's, Mestrado, Doutorado ou Pós-Doutorado; e revisão de artigos científicos para publicação. ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box2-6\">SOBRE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-8\">VALORES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-9\">SOLICITE ORÇAMENTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".btn": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "REVISÃO E FORMATAÇÃO PARA DISSERTAÇÕES E TESES ACADÊMICAS",
+          "text": "Não precisa se estressar ainda mais com o seu trabalho de Mestrado ou Doutorado: receba ele revisado e formatado nas normas ABNT ou conforme solicitação da sua Universidade.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form1-9\" data-toolbar=\"-mbrBtnMove\">SOLICITE ORÇAMENTO</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-6",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
+          "title": "ANA ROSA VIEIRA",
+          "text": "Publicitária e escritora com experiência em pesquisa científica. Trabalha com revisão e formatação de trabalhos acadêmicos há mais 10 anos, atuando com foco em dissertações e teses de Mestrados, Doutorados e Pós-Doutorados, ou artigos científicos para publicação.&nbsp;"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 formate.me."
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#c0a375",
+              "border-color": "#c0a375"
+            },
+            "H4": {
+              "font-size": "24px",
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "P": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-1",
+          "_params": {
+            "iconsBgColor": "#c0a375",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#cccccc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pencil",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title1": "Revisão",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Revisão dos trabalhos, considerando as normas ortográficas e gramaticais, bem como edição e ajustes de ordem, semântica, coesão, clareza e vocabulário.&nbsp;",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "document",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title2": "Formatação",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Formatação de trabalhos acadêmicos e científicos, considerando as normas da ABNT em vigor ou, ainda, as orientações específicas de cada Universidade, se for o caso.&nbsp;",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "chat",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title3": "Tradução",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Tradução português x francês ou francês x português, exclusivamente para resumos de trabalhos e artigos científicos para publicação.&nbsp;<br>(somente mediante análise)",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            ".mbr-plan-title": {
+              "font-size": "30px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "UL": {
+              "text-align": "left",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "12px"
+            },
+            ".mbr-plan-label": {
+              "font-size": "10px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            },
+            ".mbr-price-term": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".mbr-price-figure": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".btn": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".mbr-section__container .mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden"
+          },
+          "title": "TABELA DE VALORES",
+          "subtitle": "Esta tabela é uma média, podendo variar de acordo com as características de cada trabalho. <br>Solicite um orçamento para confirmar valores e conhecer as possibilidades de negociação e pagamento.<br>",
+          "label1": "HOT!",
+          "title1": "APENAS <br>CORRIGIR",
+          "subtitle1": "",
+          "currency1": "R$",
+          "price1": "5",
+          "period1": "/lauda.",
+          "description1": "",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">1 lauda = 1400 caracteres c/ espaços </span></li><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">Revisão de gramática e ortografia</span><br></li><li class=\"list-group-item\">Coesão, clareza, vocabulário e afins</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#form1-9\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\">SOLICITE ORÇAMENTO</a>",
+          "label2": "PROMO!",
+          "title2": "CORRIGIR E <br>FORMATAR",
+          "subtitle2": "",
+          "currency2": "R$",
+          "price2": "8",
+          "period2": "/lauda.",
+          "description2": "",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">1 lauda = 1400 caracteres c/ espaços</span></li><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\"> Trabalho de revisão completo</span><br></li><li class=\"list-group-item\">Trabalho de formatação completo</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#form1-9\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\">SOLICITE ORÇAMENTO</a>",
+          "label3": "HOT!",
+          "title3": "APENAS <br>FORMATAR",
+          "subtitle3": "",
+          "currency3": "R$",
+          "price3": "5",
+          "period3": "/lauda.",
+          "description3": "",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">1 lauda = 1400 caracteres c/ espaços </span></li><li class=\"list-group-item\"><span style=\"font-size: 0.875rem; line-height: 3.125rem;\">Formatação ABNT ou específica</span><br></li><li class=\"list-group-item\">Paginação, sumário e bibliografia</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#form1-9\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\">SOLICITE ORÇAMENTO</a>",
+          "label4": "HOT!",
+          "title4": "TRADUÇÃO DE RESUMOS",
+          "subtitle4": "",
+          "currency4": "R$",
+          "price4": "0,5",
+          "period4": "/pal.",
+          "description4": "",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Por palavra</li><li class=\"list-group-item\">PT x FR ou FR x PT</li><li class=\"list-group-item\">Sujeito a análise</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#form1-9\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\">SOLICITE ORÇAMENTO</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SMALL": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "form1-9",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "SOLICITE ORÇAMENTO",
+          "subtitle": "Me conte qual é o seu trabalho, assunto e Universidade, os serviços que você tem interesse e o seu prazo de entrega final.<br>Ou envie um e-mail com o seu trabalho em anexo para petryvieira.ar@gmail.com",
+          "form": {
+            "action": "petryvieira.ar@gmail.com",
+            "alerts": {
+              "success": "Agradecemos o seu interesse! \nEm breve entraremos em contato."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-mail*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensagem"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
+        }
+      ]
+    }
+  }
+}
