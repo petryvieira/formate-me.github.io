@@ -481,6 +481,15 @@
             $('.navbar-toggler:eq(0)').addClass('collapsed').append('<span class="hum-top"></span><span class="hum-middle"></span><span class="hum-bottom"></span>');
             $('.navbar-toggler span').not('.close-icon').css('background-color', color);
         }
-    }    
+    }
+
 
 })(jQuery);!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.com">mobirise.com</a> Mobirise v3.12.1';document.body.insertBefore(a,document.body.childNodes[0])}}();
+
+
+
+$('.gotop-map-orc').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#form1-9").offset().top
+    }, 2000);
+});
